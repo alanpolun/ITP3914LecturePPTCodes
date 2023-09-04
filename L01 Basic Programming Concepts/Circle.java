@@ -1,9 +1,9 @@
 public class Circle {
     public static void main(String[] args){
-        int	radius;
+        int	radius;  //variables
 		double area;
 
-		radius = 3;
+		radius = 5;
 		System.out.println("Radius = " + radius);
 
 		area = radius * radius * 3.14;
