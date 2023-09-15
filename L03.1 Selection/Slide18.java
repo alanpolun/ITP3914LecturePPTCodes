@@ -1,0 +1,17 @@
+import java.util.*;
+public class Slide18 {
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		int	score;
+		System.out.print("Score? ");
+		score = keyboard.nextInt();
+
+		if (score >= 40)
+			if (score >= 75)
+				System.out.println("Congratulations!");
+			else
+				System.out.println("You got a pass.");
+		
+		System.out.println("Your score is " + score);	
+	}
+}
