@@ -6,9 +6,10 @@ public class Slide11 {
 		System.out.print("Score? ");
 		score = keyboard.nextInt();
 
-		if   (score >= 40) 
+		if (score >= 40) {
 			  System.out.println("You got a pass.");
-
+		}
+		
 		System.out.println("Your score is " + score);	
 		
 	}
