@@ -5,6 +5,7 @@ public class Slide26 {
 		int	value;
 		System.out.print("value? ");
 		value = keyboard.nextInt();
+		int x = 10;
 		switch (value) {
 			case 1:
 				System.out.println("One");
