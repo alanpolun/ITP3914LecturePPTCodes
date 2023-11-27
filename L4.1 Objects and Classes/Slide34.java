@@ -1,6 +1,6 @@
 import java.text.DecimalFormat;
 class MyTime {
-	private int hour;
+	protected int hour;
 	private int minute;
 	private int second;
 	public MyTime() {
@@ -25,6 +25,7 @@ class MyTime {
 public class Slide34 {
     public static void main(String [] args) {
 		MyTime mt = new MyTime(15, 77, 37);
+		mt.hour = 27;
 		System.out.println("The time is " + mt);
 	}
     
