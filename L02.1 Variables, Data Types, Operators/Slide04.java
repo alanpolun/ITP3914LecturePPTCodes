@@ -1,7 +1,7 @@
 
 public class Slide04 {
 	public static void main(String[] args) {
-		int	radius;
+		int	radius, ldlci; //radius	for a circle
 		double	area;
 
 		radius = 3;

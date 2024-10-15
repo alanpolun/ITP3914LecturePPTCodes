@@ -3,9 +3,11 @@ public class L25Slide3{
 	public static void main(String [ ] args) {
 		Scanner 	keyboard = new Scanner(System.in);
 		//int 		grade1, grade2, grade3, grade4, grade5;
-		int[] grade;
-		int numOfgrade;
-		System.out.print("How many students? ");
+		int[] grade = new int[10];
+		int numOfgrade=0;
+		System.out.print("How many students? "+grade[0]);
+
+		/*
 		numOfgrade = keyboard.nextInt();
 		grade = new int[numOfgrade];
 		double 	average, sum=0;
@@ -16,5 +18,6 @@ public class L25Slide3{
 		
 		average = sum / grade.length;
 		System.out.println("Average = " + average);
+	*/
 	}
 }	

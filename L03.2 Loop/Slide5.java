@@ -4,7 +4,8 @@ public class Slide5 {
 		int i=1;
 		int sum=0;
 		int term;
-		Scanner kb = new Scanner(System.in);
+		Scanner kb
+		 = new Scanner(System.in);
 		System.out.print("Enter a number: ");
 		term = kb.nextInt();
 		while (i <= term) {
